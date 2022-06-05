@@ -18,3 +18,48 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+
+.country-list {
+  list-style: none;
+  padding: 40px 200px;
+}
+
+.list__item {
+  display: flex;
+  padding: 10px 30px;
+}
+
+.list__item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.list__item:hover {
+  outline: rgb(115, 136, 129) solid 2px;
+}
+
+.list__title {
+  margin-left: 30px;
+}
+
+.country-info {
+  margin-left: 300px;
+  margin-right: 300px;
+  padding: 30px;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.card__title {
+  margin-left: 40px;
+  font-size: 48px;
+}
+
+.descr__wrap {
+  font-weight: 700;
+}
+
+.card__description {
+  font-size: 24px;
+}
